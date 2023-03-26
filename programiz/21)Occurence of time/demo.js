@@ -21,3 +21,16 @@ console.log(sum)
 }
 
 occurence2([5, 5, 5, 2, 2, 2, 2, 2, 9, 4])
+
+
+// for(let i=1;i<10;i++){
+//      setTimeout(()=>{
+//          console.log(i)
+//      },1000)
+//  }
+
+ for(var i=1;i<10;i++){
+     setTimeout(()=>{
+         console.log(i)
+     },1000)
+ }
