@@ -1,0 +1,13 @@
+1)firstChild- it return text node
+2)lastChild - it return text node
+3)children- it give html collection
+
+4)firstElementChild- return element
+5)lastElementChild- return element
+
+
+
+// children : return html collection
+// childNodes: return node list
+
+//

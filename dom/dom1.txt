@@ -1,0 +1,39 @@
+console.dir()
+
+header=document.getElementById('test')
+header.nodeType
+header.nodeName
+
+htmlCollection:-
+it made from document.getElementsByClassName , document.getElementsByTagName 
+
+## html collection is not supported forEach loop but supported for loop
+## it is collection of element node
+## html collection are  live 
+
+NodeList:-
+it made from document.querySelctorAll
+##  NodeList support for loop and forEach loop
+## collection of all node 
+## node list is static 
+
+nodeType=1(element)
+
+###
+head=document.getElementsByTagName('head')
+head[0].childNodes
+
+########### node types #########################
+1)nodeType
+2)nodeName
+3)nodeValue
+
+1)nodeType
+nodeType=1(element)
+nodeType=2(attribute)
+nodeType=3(text)
+nodeType=8(commment)
+nodeType=9(document)
+
+
+

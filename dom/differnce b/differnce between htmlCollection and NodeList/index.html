@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+   <h1>Differnce b/w node list and html collection</h1>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+
+    <script>
+        //html collection
+        // let listItems = document.getElementsByTagName('li');
+        // console.log(listItems)
+        // listItems[0].parentNode.append(document.createElement('li'))
+        // console.log(listItems)
+
+        // node list
+        let listItems = document.querySelectorAll('li');
+        console.log(listItems)
+        listItems[0].parentNode.append(document.createElement('li'))
+        listItems = document.querySelectorAll('li');
+        console.log(listItems)
+    </script>
+</body>
+</html>

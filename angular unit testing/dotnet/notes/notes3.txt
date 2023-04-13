@@ -1,0 +1,27 @@
+matecher->
+it is a function compare expected and actual result in spec file
+it is a javascript function that does a boolean comparision b/w actual and expected result
+
+two type of matcher:
+1)in built
+2)custom
+
+inbuilt-the matcher which are inbuilt in jasmine framework.the user use implicitly
+1)toBe
+2)toBeDefined
+3)toBeFalsy
+4)toBeTruthy
+5)toBeNull
+6)toBeUndefined
+7)toEqual
+
+customMatcher-> which are  not present in built libraryof jasmine is called custom matcher
+it is need to defined explicitly
+
+differnce b/w toBe and toEqual
+toBe->string, booloean, number primitive data type
+toEqual-> other than above not primitive
+
+diffence b/w toBe(true),toBeTrue(),toBeTruthy(),toBeFalse(),toBeFalsy()
+
+differnce b/w toBeGeaterThan() and toBeGreaterThanAndEqual() that evalute true or false

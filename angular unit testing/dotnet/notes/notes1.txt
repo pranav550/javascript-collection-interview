@@ -1,0 +1,9 @@
+jasmine->
+1)to test each javascript line of code
+2)it is BDD
+3)IT support asyncronous testng
+
+karma->
+1)it is a testing automation tool
+2)open source
+3)

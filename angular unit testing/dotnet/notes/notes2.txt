@@ -1,0 +1,5 @@
+1)it has two utility testBed,async
+2)It is main utility package
+3)describe contains it, beforeEach, xit
+4)ng test
+5)ng test --include  src\app

@@ -1,0 +1,18 @@
+////////////////////ADD/////////////////////////////////
+
+appendChild:-
+it is attached to the parent
+it is attached to last  element in dom
+
+insertBefore:-
+body.insertBefore(newPara, h1Element)
+
+
+////////////////Remove/////////////////////////////////
+
+removeChild:-
+body.removeChild(newPara)
+
+remove:-
+divElement.remove()
+

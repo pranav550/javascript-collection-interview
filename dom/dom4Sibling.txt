@@ -1,0 +1,4 @@
+1)previousSibling-return node
+2)nextSibling-return node
+3)previousElementSibling-return element
+4)nextElmentSibling-return Element

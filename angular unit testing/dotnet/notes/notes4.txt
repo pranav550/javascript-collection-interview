@@ -1,0 +1,4 @@
+1)beforeEach->it run before each test cases 
+2)afterEach->it run after each test cases 
+3)BeforeAll->it run once in beforeAll
+4)AfterAll->it run once in afterAll

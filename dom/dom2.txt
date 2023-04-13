@@ -1,0 +1,11 @@
+global object in dom:-
+1)window
+2)document
+3)document.documentElement
+
+parentNode - parentElement
+childNode  - childElement
+nextSiblingNode - nextSiblingElementNode
+
+nextSiblingNode - return text node
+nextSiblingElementNode - return sibling element

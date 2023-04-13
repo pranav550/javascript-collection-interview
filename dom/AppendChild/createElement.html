@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create Element</h1>
+    <script>
+    let newPara = document.createElement('p');
+    newPara.textContent="hi hello"
+    let body = document.querySelector('body');
+    // body.appendChild(newPara);
+    let h1Element = document.querySelector('h1');
+    body.insertBefore(newPara,h1Element) 
+    </script>
+    
+</body>
+</html>
